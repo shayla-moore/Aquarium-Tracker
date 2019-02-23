@@ -11,7 +11,7 @@ import java.util.List;
 public interface TankDao {
     @Insert
     void insert(Tank tank);
-
+//update
     @Update
     void update(Tank... tanks);
 
